@@ -1,8 +1,8 @@
-\# YOLOE Object Detection
+# **YOLOE Object Detection**
 
 
 
-\## 1. Project Overview
+##### **1. Project Overview**
 
 
 
@@ -14,11 +14,11 @@ The project focuses on running inference, observing detection results, and evalu
 
 
 
-\*\*Note:\*\* This project currently uses pretrained models. Custom model training has not been performed as part of this work.
+**Note:** This project currently uses pretrained models. Custom model training has not been performed as part of this work.
 
 
 
-\## 2. Technologies Used
+##### **2. Technologies Used**
 
 
 
@@ -30,7 +30,7 @@ The project focuses on running inference, observing detection results, and evalu
 
 
 
-\## 3. Project Features
+##### **3. Project Features**
 
 
 
@@ -48,7 +48,7 @@ The project focuses on running inference, observing detection results, and evalu
 
 
 
-\## 4. Models Tested
+##### **4. Models Tested**
 
 
 
@@ -58,11 +58,11 @@ The project focuses on running inference, observing detection results, and evalu
 
 
 
-\## 5. Installation
+##### **5. Installation**
 
 
 
-\### Prerequisites
+###### **Prerequisites**
 
 
 
@@ -78,13 +78,13 @@ Clone the repository:
 
 
 
-```bash
+
 
 git clone https://github.com/Saptadipa-Roy/YOLOE-MODEL.git
 
 cd YOLOE-MODEL
 
-```
+
 
 
 
@@ -92,13 +92,13 @@ Create and activate a virtual environment on Windows:
 
 
 
-```bash
+
 
 python -m venv .venv
 
 .venv\\Scripts\\activate
 
-```
+
 
 
 
@@ -106,13 +106,13 @@ Install Ultralytics:
 
 
 
-```bash
+
 
 python -m pip install --upgrade pip
 
 python -m pip install ultralytics
 
-```
+
 
 
 
@@ -120,11 +120,11 @@ Additional dependencies may be required for particular model features, especiall
 
 
 
-\## 6. Running Inference
+##### **6. Running Inference**
 
 
 
-\### A. Prompt-Free Inference
+###### **A. Prompt-Free Inference**
 
 
 
@@ -132,7 +132,7 @@ The following example runs a pretrained YOLOE model on a video without specifyin
 
 
 
-```python
+
 
 from ultralytics import YOLOE
 
@@ -154,7 +154,7 @@ results = model.predict(
 
 )
 
-```
+
 
 
 
@@ -162,7 +162,7 @@ Replace `Room-Video.mp4` with the path to your input image or video.
 
 
 
-\### B. Text-Prompt-Based Inference
+###### **B. Text-Prompt-Based Inference**
 
 
 
@@ -170,7 +170,7 @@ This example uses a text prompt to guide detection.
 
 
 
-```python
+
 
 from ultralytics import YOLOE
 
@@ -196,7 +196,7 @@ results = model.predict(
 
 )
 
-```
+
 
 
 
@@ -204,11 +204,11 @@ Replace `"camel walking"` with the object or concept you want to test and provid
 
 
 
-\*\*Note:\*\* Text-prompt-based inference may require additional dependencies, depending on the installed Ultralytics version.
+**Note:** Text-prompt-based inference may require additional dependencies, depending on the installed Ultralytics version.
 
 
 
-\## 7. Testing and Observations
+##### **7. Testing and Observations**
 
 
 
@@ -232,7 +232,7 @@ Detection results may vary depending on the input, model configuration, and obje
 
 
 
-\## 8. Using a Trained Model
+##### **8. Using a Trained Model**
 
 
 
@@ -244,7 +244,7 @@ If custom training is performed in the future, the resulting checkpoint can be l
 
 
 
-\## 9. Limitations
+##### **9. Limitations**
 
 
 
@@ -260,7 +260,7 @@ If custom training is performed in the future, the resulting checkpoint can be l
 
 
 
-\## 10. References
+##### **10. References**
 
 
 
